@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para o Amor da Minha Vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-blur bg-blur-1"></div>
+    <div class="bg-blur bg-blur-2"></div>
+
+    <main class="container">
+      <section class="hero reveal">
+        <p class="tag">Feito com amor</p>
+        <h1>Meu amor, esse site é para você.</h1>
+        <p class="subtitle">
+          Desde que você chegou, meus dias ficaram mais leves, mais bonitos e
+          com mais sentido.
+        </p>
+        <a href="#carta" class="btn">Ler minha declaração</a>
+      </section>
+
+      <section class="card reveal" id="nossa-historia">
+        <h2>Nossa história em 3 momentos</h2>
+        <div class="timeline">
+          <article>
+            <span>1</span>
+            <h3>Quando te conheci</h3>
+            <p>
+              O dia em que tudo começou e eu percebi que você era diferente de
+              todas as outras pessoas.
+            </p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Nossos momentos</h3>
+            <p>
+              Risadas, conversas e pequenas coisas que viraram minhas memórias
+              favoritas.
+            </p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Hoje e sempre</h3>
+            <p>
+              Quero continuar construindo uma vida com você, com carinho,
+              cuidado e parceria.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card letter reveal" id="carta">
+        <h2>Minha declaração</h2>
+        <p>
+          Amor, você é a minha pessoa favorita no mundo. Obrigado por cada
+          abraço, cada conselho e cada sorriso que muda completamente o meu dia.
+          Você me inspira a ser melhor e me mostra que o amor de verdade existe
+          nos detalhes.
+        </p>
+        <p>
+          Eu te amo por quem você é, por tudo o que já vivemos e por tudo o que
+          ainda vamos viver. Se depender de mim, todos os meus planos sempre vão
+          ter você.
+        </p>
+        <p class="signature">Com amor, <strong>Aquiles</strong>.</p>
+      </section>
+
+      <section class="actions reveal">
+        <button class="btn btn-heart" id="loveBtn">Clique aqui 💌</button>
+        <p id="message">Você é o meu lugar favorito.</p>
+      </section>
+    </main>
+
+    <audio id="bgMusic" autoplay loop>
+      <source src="./musica.mp3" type="audio/mpeg" />
+    </audio>
+    <button class="btn music-toggle" id="musicToggle" type="button">
+      Pausar música
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
